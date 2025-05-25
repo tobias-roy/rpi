@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PbNLsa4vjytDUDVfTkv5xoi3A6PK3CAfteqjrNFEH6E=",
+  "Hash": "BaLMNOoXB/qu/OGUgcZT6aGmry7po4X8RQc2NrNmwwo=",
   "Source": "Web",
   "BasePath": "/",
   "Mode": "Root",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "3mgizraigp",
-      "Integrity": "ZWxXvdvccKv8taeX16W7ADAXgMgkyuafY1X+9AE5uTg=",
+      "Fingerprint": "uja3msjay6",
+      "Integrity": "1jH5YLoe5Y636xdYmV5lbEhO7GkjAYT+FscVeafNaE8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/blazor.boot.json"
@@ -584,6 +584,48 @@
       "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/webcil/Microsoft.Extensions.DependencyInjection.wasm"
     },
     {
+      "Identity": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.Diagnostics.Abstractions.wasm",
+      "SourceId": "Web",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Diagnostics.Abstractions#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "krp2q25ggl",
+      "Integrity": "8OA0nUv53l8IFeCTYWz0u2o5/PGbV4JeB8oSn+q16tI=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/webcil/Microsoft.Extensions.Diagnostics.Abstractions.wasm"
+    },
+    {
+      "Identity": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.Diagnostics.wasm",
+      "SourceId": "Web",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Diagnostics#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "3dggcz3f5g",
+      "Integrity": "156LhXAYvHMyt3ZzK9IAfqAlTFyB7YXVJ/QGM31hggs=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/webcil/Microsoft.Extensions.Diagnostics.wasm"
+    },
+    {
       "Identity": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.FileProviders.Abstractions.wasm",
       "SourceId": "Web",
       "SourceType": "Computed",
@@ -645,6 +687,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/webcil/Microsoft.Extensions.FileSystemGlobbing.wasm"
+    },
+    {
+      "Identity": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.Http.wasm",
+      "SourceId": "Web",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Http#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "nac254jq09",
+      "Integrity": "vw+BtWX7li0ZyL0mpz9BapSo6oVbTU3WhQ7XUvXempU=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/webcil/Microsoft.Extensions.Http.wasm"
     },
     {
       "Identity": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.Localization.Abstractions.wasm",
@@ -729,6 +792,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/webcil/Microsoft.Extensions.Logging.wasm"
+    },
+    {
+      "Identity": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.Options.ConfigurationExtensions.wasm",
+      "SourceId": "Web",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Options.ConfigurationExtensions#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "25907k314f",
+      "Integrity": "RtVzoDULKaRIx4ZUMwAiCoPKWTGLHuEZzczPlfPFzlc=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/webcil/Microsoft.Extensions.Options.ConfigurationExtensions.wasm"
     },
     {
       "Identity": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.Options.wasm",
@@ -4357,8 +4441,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "vcartu5ufq",
-      "Integrity": "L7KXwIvqYFk5/GX2xJ+gsuzbHtYPV0+1i2uBHG6m6Vw=",
+      "Fingerprint": "smys4zoanc",
+      "Integrity": "rHFhCmTqWt+bfyb8qypHNE4Tuy3X/IsUeyglEOcVaIY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/Web.pdb"
@@ -4378,8 +4462,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "u47gomayxr",
-      "Integrity": "4ie73KlCEQGNcJPBQMAexZ6eBYfk19knd4Lw9JnSrxY=",
+      "Fingerprint": "kjsxuvhzej",
+      "Integrity": "wJhfg/NU8GkjjWqhKGD6bcsnyQKkiVWT4Yr3ofgT+Zk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/webcil/Web.wasm"
@@ -6401,12 +6485,12 @@
       "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/System.Net.Security.wasm"
     },
     {
-      "Identity": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/dodzdl0sce-u47gomayxr.gz",
+      "Identity": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/dodzdl0sce-kjsxuvhzej.gz",
       "SourceId": "Web",
       "SourceType": "Computed",
       "ContentRoot": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/Web#[.{fingerprint=u47gomayxr}]!.wasm.gz",
+      "RelativePath": "_framework/Web#[.{fingerprint=kjsxuvhzej}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -6415,8 +6499,8 @@
       "RelatedAsset": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Web.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "13cbi2h9wl",
-      "Integrity": "7fsOwQ1DR7Uz/KHePCu9QyT6twgveFrQss1Z/mtgPq0=",
+      "Fingerprint": "ari2cdwbn0",
+      "Integrity": "ipSae5cACH2M3KPUXcnvOa1vBmXN5y6dYVajOK8546w=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Web.wasm"
@@ -6443,7 +6527,7 @@
       "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/e5jbp6bbax-gkgibanzon.gz",
+      "Identity": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/e5jbp6bbax-3vavkor477.gz",
       "SourceId": "Web",
       "SourceType": "Computed",
       "ContentRoot": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/",
@@ -6485,12 +6569,12 @@
       "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/System.ServiceProcess.wasm"
     },
     {
-      "Identity": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/e6u1ryxfzv-vcartu5ufq.gz",
+      "Identity": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/e6u1ryxfzv-smys4zoanc.gz",
       "SourceId": "Web",
       "SourceType": "Computed",
       "ContentRoot": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/Web#[.{fingerprint=vcartu5ufq}]!.pdb.gz",
+      "RelativePath": "_framework/Web#[.{fingerprint=smys4zoanc}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -6499,8 +6583,8 @@
       "RelatedAsset": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Web.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "o8ykl019q8",
-      "Integrity": "qJCNG4ICKK2pNO1d3dU9RKAA/CH9gEttido1WNKum38=",
+      "Fingerprint": "b3chtxgayd",
+      "Integrity": "dzioC6Qh/rAIfIUHBT6PBeHxxgLMdfFI1ueOSZd6wXA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Web.pdb"
@@ -6779,7 +6863,7 @@
       "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/System.Drawing.Primitives.wasm"
     },
     {
-      "Identity": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/gz4txohd4t-8kcdrraxvi.gz",
+      "Identity": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/gz4txohd4t-sgc33mg3pa.gz",
       "SourceId": "Web",
       "SourceType": "Computed",
       "ContentRoot": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/",
@@ -6793,8 +6877,8 @@
       "RelatedAsset": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/service-worker/service-worker-assets.js.build",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "lalu5ec4y8",
-      "Integrity": "s1vFDwta2FXmYqi9NSqFKassGoIq5jWlV7JvAKLbxzw=",
+      "Fingerprint": "5y4ltw324x",
+      "Integrity": "s4aTs3k3C8rk5BppMxzAMkxt0bfQT5zmSyKn9iQNYrw=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/service-worker/service-worker-assets.js.build"
@@ -7134,6 +7218,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/System.Threading.Tasks.wasm"
+    },
+    {
+      "Identity": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/igmab3l0ki-krp2q25ggl.gz",
+      "SourceId": "Web",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Diagnostics.Abstractions#[.{fingerprint=krp2q25ggl}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.Diagnostics.Abstractions.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "01y7tgyvtz",
+      "Integrity": "BAXqgQiyeX1IAMSeEm+TQgZdp5040QLmjIt4j6hyPO8=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.Diagnostics.Abstractions.wasm"
     },
     {
       "Identity": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/ir1jliv47p-vvnauwmlln.gz",
@@ -7661,6 +7766,27 @@
       "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/System.IO.wasm"
     },
     {
+      "Identity": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/mrl8whq80d-nac254jq09.gz",
+      "SourceId": "Web",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Http#[.{fingerprint=nac254jq09}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.Http.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "83xssewv1a",
+      "Integrity": "hOrLgzXK4shDuB0XAq/e6hLdtMkDUrBisDHa9ePX52o=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.Http.wasm"
+    },
+    {
       "Identity": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/mv21ltez5p-vg192fvph6.gz",
       "SourceId": "Web",
       "SourceType": "Computed",
@@ -7806,6 +7932,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/System.Security.SecureString.wasm"
+    },
+    {
+      "Identity": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/nk0mtpmchm-3dggcz3f5g.gz",
+      "SourceId": "Web",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Diagnostics#[.{fingerprint=3dggcz3f5g}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.Diagnostics.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "sehutly9y2",
+      "Integrity": "pMQWGigT6pxox5VqY0MrajzeYEtV7u/CCe05kk5kycI=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.Diagnostics.wasm"
     },
     {
       "Identity": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/noahx2mo10-o1o4xnmbi8.gz",
@@ -8438,7 +8585,7 @@
       "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/roury21wbo-3mgizraigp.gz",
+      "Identity": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/roury21wbo-uja3msjay6.gz",
       "SourceId": "Web",
       "SourceType": "Computed",
       "ContentRoot": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/",
@@ -8452,8 +8599,8 @@
       "RelatedAsset": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "np4tb11k03",
-      "Integrity": "G1yh0HBLReJM2zAnwr+CDWYO/E14zF3wdjtjUwktIec=",
+      "Fingerprint": "gn7j98t66o",
+      "Integrity": "fMYZ0bA8o7891hkogJPeiVEF2rrjqkXtxf9m2GSqeGA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json"
@@ -9108,6 +9255,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Identity": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/us8ucnwkqw-25907k314f.gz",
+      "SourceId": "Web",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Options.ConfigurationExtensions#[.{fingerprint=25907k314f}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.Options.ConfigurationExtensions.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "06db3sdy8y",
+      "Integrity": "aDpnHNh1EX5BPWl7n2kskYUmTyFbfBmWCTT4XyImIpc=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.Options.ConfigurationExtensions.wasm"
     },
     {
       "Identity": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/v3ddjb8ckj-9fz83usnsr.gz",
@@ -9943,8 +10111,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "BlazorServiceWorker",
       "AssetTraitValue": "ServiceWorkerManifest",
-      "Fingerprint": "8kcdrraxvi",
-      "Integrity": "KFj/enZ3Hf24Qd9aBatq0A8TQ9oVyzKiGrf5vDc++/o=",
+      "Fingerprint": "sgc33mg3pa",
+      "Integrity": "3Bz2jQ/ZrdU73b4Sq3C/3PtGXL8nuXXyrqoRO1QUyCU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/service-worker/service-worker-assets.js.build"
@@ -9964,8 +10132,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "BlazorServiceWorker",
       "AssetTraitValue": "ServiceWorkerJs",
-      "Fingerprint": "gkgibanzon",
-      "Integrity": "oFit344ntqWLCNErglGmWYhmXrTspXB0bpPeRloPJ8U=",
+      "Fingerprint": "3vavkor477",
+      "Integrity": "QRMXJMQ6wMnb8xh1iisv9yEefR3lOPNjpjbnoYAUrH4=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "wwwroot/service-worker.js"
@@ -11418,7 +11586,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "38701"
+          "Value": "40239"
         },
         {
           "Name": "Content-Type",
@@ -11426,11 +11594,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZWxXvdvccKv8taeX16W7ADAXgMgkyuafY1X+9AE5uTg=\""
+          "Value": "\"1jH5YLoe5Y636xdYmV5lbEhO7GkjAYT+FscVeafNaE8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 18:32:50 GMT"
+          "Value": "Sun, 25 May 2025 20:37:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11440,18 +11608,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZWxXvdvccKv8taeX16W7ADAXgMgkyuafY1X+9AE5uTg="
+          "Value": "sha256-1jH5YLoe5Y636xdYmV5lbEhO7GkjAYT+FscVeafNaE8="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/roury21wbo-3mgizraigp.gz",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/roury21wbo-uja3msjay6.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000080173174"
+          "Quality": "0.000078696781"
         }
       ],
       "ResponseHeaders": [
@@ -11461,15 +11629,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12472"
+          "Value": "12706"
         },
         {
           "Name": "ETag",
-          "Value": "\"G1yh0HBLReJM2zAnwr+CDWYO/E14zF3wdjtjUwktIec=\""
+          "Value": "\"fMYZ0bA8o7891hkogJPeiVEF2rrjqkXtxf9m2GSqeGA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 18:24:25 GMT"
+          "Value": "Sun, 25 May 2025 20:36:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11489,19 +11657,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ZWxXvdvccKv8taeX16W7ADAXgMgkyuafY1X+9AE5uTg=\""
+          "Value": "W/\"1jH5YLoe5Y636xdYmV5lbEhO7GkjAYT+FscVeafNaE8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZWxXvdvccKv8taeX16W7ADAXgMgkyuafY1X+9AE5uTg="
+          "Value": "sha256-1jH5YLoe5Y636xdYmV5lbEhO7GkjAYT+FscVeafNaE8="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/roury21wbo-3mgizraigp.gz",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/roury21wbo-uja3msjay6.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11510,7 +11678,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12472"
+          "Value": "12706"
         },
         {
           "Name": "Content-Type",
@@ -11518,11 +11686,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"G1yh0HBLReJM2zAnwr+CDWYO/E14zF3wdjtjUwktIec=\""
+          "Value": "\"fMYZ0bA8o7891hkogJPeiVEF2rrjqkXtxf9m2GSqeGA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 18:24:25 GMT"
+          "Value": "Sun, 25 May 2025 20:36:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11540,7 +11708,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-G1yh0HBLReJM2zAnwr+CDWYO/E14zF3wdjtjUwktIec="
+          "Value": "sha256-fMYZ0bA8o7891hkogJPeiVEF2rrjqkXtxf9m2GSqeGA="
         }
       ]
     },
@@ -18536,6 +18704,602 @@
       ]
     },
     {
+      "Route": "_framework/Microsoft.Extensions.Diagnostics.3dggcz3f5g.wasm",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.Diagnostics.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26389"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"156LhXAYvHMyt3ZzK9IAfqAlTFyB7YXVJ/QGM31hggs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 19:13:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3dggcz3f5g"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Diagnostics.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-156LhXAYvHMyt3ZzK9IAfqAlTFyB7YXVJ/QGM31hggs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Diagnostics.3dggcz3f5g.wasm",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/nk0mtpmchm-3dggcz3f5g.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000078758762"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12696"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pMQWGigT6pxox5VqY0MrajzeYEtV7u/CCe05kk5kycI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 19:13:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"156LhXAYvHMyt3ZzK9IAfqAlTFyB7YXVJ/QGM31hggs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3dggcz3f5g"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Diagnostics.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-156LhXAYvHMyt3ZzK9IAfqAlTFyB7YXVJ/QGM31hggs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Diagnostics.3dggcz3f5g.wasm.gz",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/nk0mtpmchm-3dggcz3f5g.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12696"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pMQWGigT6pxox5VqY0MrajzeYEtV7u/CCe05kk5kycI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 19:13:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3dggcz3f5g"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Diagnostics.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pMQWGigT6pxox5VqY0MrajzeYEtV7u/CCe05kk5kycI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Diagnostics.Abstractions.krp2q25ggl.wasm",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.Diagnostics.Abstractions.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21269"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8OA0nUv53l8IFeCTYWz0u2o5/PGbV4JeB8oSn+q16tI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 19:13:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "krp2q25ggl"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Diagnostics.Abstractions.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8OA0nUv53l8IFeCTYWz0u2o5/PGbV4JeB8oSn+q16tI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Diagnostics.Abstractions.krp2q25ggl.wasm",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/igmab3l0ki-krp2q25ggl.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000111358575"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8979"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BAXqgQiyeX1IAMSeEm+TQgZdp5040QLmjIt4j6hyPO8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 19:13:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"8OA0nUv53l8IFeCTYWz0u2o5/PGbV4JeB8oSn+q16tI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "krp2q25ggl"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Diagnostics.Abstractions.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8OA0nUv53l8IFeCTYWz0u2o5/PGbV4JeB8oSn+q16tI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Diagnostics.Abstractions.krp2q25ggl.wasm.gz",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/igmab3l0ki-krp2q25ggl.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8979"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BAXqgQiyeX1IAMSeEm+TQgZdp5040QLmjIt4j6hyPO8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 19:13:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "krp2q25ggl"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Diagnostics.Abstractions.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BAXqgQiyeX1IAMSeEm+TQgZdp5040QLmjIt4j6hyPO8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Diagnostics.Abstractions.wasm",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.Diagnostics.Abstractions.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21269"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8OA0nUv53l8IFeCTYWz0u2o5/PGbV4JeB8oSn+q16tI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 19:13:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8OA0nUv53l8IFeCTYWz0u2o5/PGbV4JeB8oSn+q16tI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Diagnostics.Abstractions.wasm",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/igmab3l0ki-krp2q25ggl.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000111358575"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8979"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BAXqgQiyeX1IAMSeEm+TQgZdp5040QLmjIt4j6hyPO8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 19:13:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"8OA0nUv53l8IFeCTYWz0u2o5/PGbV4JeB8oSn+q16tI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8OA0nUv53l8IFeCTYWz0u2o5/PGbV4JeB8oSn+q16tI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Diagnostics.Abstractions.wasm.gz",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/igmab3l0ki-krp2q25ggl.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8979"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BAXqgQiyeX1IAMSeEm+TQgZdp5040QLmjIt4j6hyPO8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 19:13:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BAXqgQiyeX1IAMSeEm+TQgZdp5040QLmjIt4j6hyPO8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Diagnostics.wasm",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.Diagnostics.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26389"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"156LhXAYvHMyt3ZzK9IAfqAlTFyB7YXVJ/QGM31hggs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 19:13:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-156LhXAYvHMyt3ZzK9IAfqAlTFyB7YXVJ/QGM31hggs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Diagnostics.wasm",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/nk0mtpmchm-3dggcz3f5g.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000078758762"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12696"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pMQWGigT6pxox5VqY0MrajzeYEtV7u/CCe05kk5kycI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 19:13:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"156LhXAYvHMyt3ZzK9IAfqAlTFyB7YXVJ/QGM31hggs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-156LhXAYvHMyt3ZzK9IAfqAlTFyB7YXVJ/QGM31hggs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Diagnostics.wasm.gz",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/nk0mtpmchm-3dggcz3f5g.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12696"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pMQWGigT6pxox5VqY0MrajzeYEtV7u/CCe05kk5kycI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 19:13:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pMQWGigT6pxox5VqY0MrajzeYEtV7u/CCe05kk5kycI="
+        }
+      ]
+    },
+    {
       "Route": "_framework/Microsoft.Extensions.FileProviders.Abstractions.1308i1c1g1.wasm",
       "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.FileProviders.Abstractions.wasm",
       "Selectors": [],
@@ -19426,6 +20190,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-8SfCF3sfB8jfqmtToG1Zbth6kdv1XIn4fxIEFN97+Lo="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Http.nac254jq09.wasm",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.Http.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "82197"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vw+BtWX7li0ZyL0mpz9BapSo6oVbTU3WhQ7XUvXempU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 19:13:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nac254jq09"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Http.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vw+BtWX7li0ZyL0mpz9BapSo6oVbTU3WhQ7XUvXempU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Http.nac254jq09.wasm",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/mrl8whq80d-nac254jq09.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000028898393"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34603"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hOrLgzXK4shDuB0XAq/e6hLdtMkDUrBisDHa9ePX52o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 19:13:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"vw+BtWX7li0ZyL0mpz9BapSo6oVbTU3WhQ7XUvXempU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nac254jq09"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Http.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vw+BtWX7li0ZyL0mpz9BapSo6oVbTU3WhQ7XUvXempU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Http.nac254jq09.wasm.gz",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/mrl8whq80d-nac254jq09.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34603"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hOrLgzXK4shDuB0XAq/e6hLdtMkDUrBisDHa9ePX52o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 19:13:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nac254jq09"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Http.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hOrLgzXK4shDuB0XAq/e6hLdtMkDUrBisDHa9ePX52o="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Http.wasm",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.Http.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "82197"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vw+BtWX7li0ZyL0mpz9BapSo6oVbTU3WhQ7XUvXempU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 19:13:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vw+BtWX7li0ZyL0mpz9BapSo6oVbTU3WhQ7XUvXempU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Http.wasm",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/mrl8whq80d-nac254jq09.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000028898393"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34603"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hOrLgzXK4shDuB0XAq/e6hLdtMkDUrBisDHa9ePX52o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 19:13:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"vw+BtWX7li0ZyL0mpz9BapSo6oVbTU3WhQ7XUvXempU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vw+BtWX7li0ZyL0mpz9BapSo6oVbTU3WhQ7XUvXempU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Http.wasm.gz",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/mrl8whq80d-nac254jq09.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34603"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hOrLgzXK4shDuB0XAq/e6hLdtMkDUrBisDHa9ePX52o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 19:13:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hOrLgzXK4shDuB0XAq/e6hLdtMkDUrBisDHa9ePX52o="
         }
       ]
     },
@@ -20618,6 +21680,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-LoBNfICDZN6FY96G7DmEIagCjGOcjK/PzAH6jW2qAuE="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Options.ConfigurationExtensions.25907k314f.wasm",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.Options.ConfigurationExtensions.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12053"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RtVzoDULKaRIx4ZUMwAiCoPKWTGLHuEZzczPlfPFzlc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 19:13:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "25907k314f"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Options.ConfigurationExtensions.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RtVzoDULKaRIx4ZUMwAiCoPKWTGLHuEZzczPlfPFzlc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Options.ConfigurationExtensions.25907k314f.wasm",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/us8ucnwkqw-25907k314f.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000180570603"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5537"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aDpnHNh1EX5BPWl7n2kskYUmTyFbfBmWCTT4XyImIpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 19:13:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"RtVzoDULKaRIx4ZUMwAiCoPKWTGLHuEZzczPlfPFzlc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "25907k314f"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Options.ConfigurationExtensions.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RtVzoDULKaRIx4ZUMwAiCoPKWTGLHuEZzczPlfPFzlc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Options.ConfigurationExtensions.25907k314f.wasm.gz",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/us8ucnwkqw-25907k314f.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5537"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aDpnHNh1EX5BPWl7n2kskYUmTyFbfBmWCTT4XyImIpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 19:13:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "25907k314f"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Options.ConfigurationExtensions.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aDpnHNh1EX5BPWl7n2kskYUmTyFbfBmWCTT4XyImIpc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Options.ConfigurationExtensions.wasm",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.Options.ConfigurationExtensions.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12053"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RtVzoDULKaRIx4ZUMwAiCoPKWTGLHuEZzczPlfPFzlc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 19:13:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RtVzoDULKaRIx4ZUMwAiCoPKWTGLHuEZzczPlfPFzlc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Options.ConfigurationExtensions.wasm",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/us8ucnwkqw-25907k314f.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000180570603"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5537"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aDpnHNh1EX5BPWl7n2kskYUmTyFbfBmWCTT4XyImIpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 19:13:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"RtVzoDULKaRIx4ZUMwAiCoPKWTGLHuEZzczPlfPFzlc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RtVzoDULKaRIx4ZUMwAiCoPKWTGLHuEZzczPlfPFzlc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Options.ConfigurationExtensions.wasm.gz",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/us8ucnwkqw-25907k314f.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5537"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aDpnHNh1EX5BPWl7n2kskYUmTyFbfBmWCTT4XyImIpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 19:13:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aDpnHNh1EX5BPWl7n2kskYUmTyFbfBmWCTT4XyImIpc="
         }
       ]
     },
@@ -71878,144 +73238,7 @@
       ]
     },
     {
-      "Route": "_framework/Web.pdb",
-      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Web.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "19688"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"L7KXwIvqYFk5/GX2xJ+gsuzbHtYPV0+1i2uBHG6m6Vw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 18:32:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-L7KXwIvqYFk5/GX2xJ+gsuzbHtYPV0+1i2uBHG6m6Vw="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Web.pdb",
-      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/e6u1ryxfzv-vcartu5ufq.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000073789847"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "13551"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qJCNG4ICKK2pNO1d3dU9RKAA/CH9gEttido1WNKum38=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 18:32:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"L7KXwIvqYFk5/GX2xJ+gsuzbHtYPV0+1i2uBHG6m6Vw=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-L7KXwIvqYFk5/GX2xJ+gsuzbHtYPV0+1i2uBHG6m6Vw="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Web.pdb.gz",
-      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/e6u1ryxfzv-vcartu5ufq.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "13551"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qJCNG4ICKK2pNO1d3dU9RKAA/CH9gEttido1WNKum38=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 18:32:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-qJCNG4ICKK2pNO1d3dU9RKAA/CH9gEttido1WNKum38="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Web.u47gomayxr.wasm",
+      "Route": "_framework/Web.kjsxuvhzej.wasm",
       "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Web.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -72025,7 +73248,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13077"
+          "Value": "24853"
         },
         {
           "Name": "Content-Type",
@@ -72033,11 +73256,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4ie73KlCEQGNcJPBQMAexZ6eBYfk19knd4Lw9JnSrxY=\""
+          "Value": "\"wJhfg/NU8GkjjWqhKGD6bcsnyQKkiVWT4Yr3ofgT+Zk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 18:32:50 GMT"
+          "Value": "Sun, 25 May 2025 20:37:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72047,7 +73270,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "u47gomayxr"
+          "Value": "kjsxuvhzej"
         },
         {
           "Name": "label",
@@ -72055,18 +73278,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-4ie73KlCEQGNcJPBQMAexZ6eBYfk19knd4Lw9JnSrxY="
+          "Value": "sha256-wJhfg/NU8GkjjWqhKGD6bcsnyQKkiVWT4Yr3ofgT+Zk="
         }
       ]
     },
     {
-      "Route": "_framework/Web.u47gomayxr.wasm",
-      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/dodzdl0sce-u47gomayxr.gz",
+      "Route": "_framework/Web.kjsxuvhzej.wasm",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/dodzdl0sce-kjsxuvhzej.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000162416761"
+          "Quality": "0.000086229197"
         }
       ],
       "ResponseHeaders": [
@@ -72076,15 +73299,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6156"
+          "Value": "11596"
         },
         {
           "Name": "ETag",
-          "Value": "\"7fsOwQ1DR7Uz/KHePCu9QyT6twgveFrQss1Z/mtgPq0=\""
+          "Value": "\"ipSae5cACH2M3KPUXcnvOa1vBmXN5y6dYVajOK8546w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 18:32:51 GMT"
+          "Value": "Sun, 25 May 2025 20:37:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72104,13 +73327,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"4ie73KlCEQGNcJPBQMAexZ6eBYfk19knd4Lw9JnSrxY=\""
+          "Value": "W/\"wJhfg/NU8GkjjWqhKGD6bcsnyQKkiVWT4Yr3ofgT+Zk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "u47gomayxr"
+          "Value": "kjsxuvhzej"
         },
         {
           "Name": "label",
@@ -72118,13 +73341,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-4ie73KlCEQGNcJPBQMAexZ6eBYfk19knd4Lw9JnSrxY="
+          "Value": "sha256-wJhfg/NU8GkjjWqhKGD6bcsnyQKkiVWT4Yr3ofgT+Zk="
         }
       ]
     },
     {
-      "Route": "_framework/Web.u47gomayxr.wasm.gz",
-      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/dodzdl0sce-u47gomayxr.gz",
+      "Route": "_framework/Web.kjsxuvhzej.wasm.gz",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/dodzdl0sce-kjsxuvhzej.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -72133,7 +73356,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6156"
+          "Value": "11596"
         },
         {
           "Name": "Content-Type",
@@ -72141,11 +73364,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7fsOwQ1DR7Uz/KHePCu9QyT6twgveFrQss1Z/mtgPq0=\""
+          "Value": "\"ipSae5cACH2M3KPUXcnvOa1vBmXN5y6dYVajOK8546w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 18:32:51 GMT"
+          "Value": "Sun, 25 May 2025 20:37:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72163,7 +73386,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "u47gomayxr"
+          "Value": "kjsxuvhzej"
         },
         {
           "Name": "label",
@@ -72171,12 +73394,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-7fsOwQ1DR7Uz/KHePCu9QyT6twgveFrQss1Z/mtgPq0="
+          "Value": "sha256-ipSae5cACH2M3KPUXcnvOa1vBmXN5y6dYVajOK8546w="
         }
       ]
     },
     {
-      "Route": "_framework/Web.vcartu5ufq.pdb",
+      "Route": "_framework/Web.pdb",
       "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Web.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -72186,7 +73409,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19688"
+          "Value": "23636"
         },
         {
           "Name": "Content-Type",
@@ -72194,40 +73417,32 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"L7KXwIvqYFk5/GX2xJ+gsuzbHtYPV0+1i2uBHG6m6Vw=\""
+          "Value": "\"rHFhCmTqWt+bfyb8qypHNE4Tuy3X/IsUeyglEOcVaIY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 18:32:50 GMT"
+          "Value": "Sun, 25 May 2025 20:37:31 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "vcartu5ufq"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Web.pdb"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-L7KXwIvqYFk5/GX2xJ+gsuzbHtYPV0+1i2uBHG6m6Vw="
+          "Value": "sha256-rHFhCmTqWt+bfyb8qypHNE4Tuy3X/IsUeyglEOcVaIY="
         }
       ]
     },
     {
-      "Route": "_framework/Web.vcartu5ufq.pdb",
-      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/e6u1ryxfzv-vcartu5ufq.gz",
+      "Route": "_framework/Web.pdb",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/e6u1ryxfzv-smys4zoanc.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000073789847"
+          "Quality": "0.000063524330"
         }
       ],
       "ResponseHeaders": [
@@ -72237,19 +73452,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13551"
+          "Value": "15741"
         },
         {
           "Name": "ETag",
-          "Value": "\"qJCNG4ICKK2pNO1d3dU9RKAA/CH9gEttido1WNKum38=\""
+          "Value": "\"dzioC6Qh/rAIfIUHBT6PBeHxxgLMdfFI1ueOSZd6wXA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 18:32:51 GMT"
+          "Value": "Sun, 25 May 2025 20:37:32 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -72265,27 +73480,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"L7KXwIvqYFk5/GX2xJ+gsuzbHtYPV0+1i2uBHG6m6Vw=\""
+          "Value": "W/\"rHFhCmTqWt+bfyb8qypHNE4Tuy3X/IsUeyglEOcVaIY=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "vcartu5ufq"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Web.pdb"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-L7KXwIvqYFk5/GX2xJ+gsuzbHtYPV0+1i2uBHG6m6Vw="
+          "Value": "sha256-rHFhCmTqWt+bfyb8qypHNE4Tuy3X/IsUeyglEOcVaIY="
         }
       ]
     },
     {
-      "Route": "_framework/Web.vcartu5ufq.pdb.gz",
-      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/e6u1ryxfzv-vcartu5ufq.gz",
+      "Route": "_framework/Web.pdb.gz",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/e6u1ryxfzv-smys4zoanc.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -72294,7 +73501,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13551"
+          "Value": "15741"
         },
         {
           "Name": "Content-Type",
@@ -72302,11 +73509,164 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qJCNG4ICKK2pNO1d3dU9RKAA/CH9gEttido1WNKum38=\""
+          "Value": "\"dzioC6Qh/rAIfIUHBT6PBeHxxgLMdfFI1ueOSZd6wXA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 18:32:51 GMT"
+          "Value": "Sun, 25 May 2025 20:37:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dzioC6Qh/rAIfIUHBT6PBeHxxgLMdfFI1ueOSZd6wXA="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Web.smys4zoanc.pdb",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Web.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23636"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rHFhCmTqWt+bfyb8qypHNE4Tuy3X/IsUeyglEOcVaIY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 20:37:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "smys4zoanc"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Web.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rHFhCmTqWt+bfyb8qypHNE4Tuy3X/IsUeyglEOcVaIY="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Web.smys4zoanc.pdb",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/e6u1ryxfzv-smys4zoanc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000063524330"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15741"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dzioC6Qh/rAIfIUHBT6PBeHxxgLMdfFI1ueOSZd6wXA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 20:37:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"rHFhCmTqWt+bfyb8qypHNE4Tuy3X/IsUeyglEOcVaIY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "smys4zoanc"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Web.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rHFhCmTqWt+bfyb8qypHNE4Tuy3X/IsUeyglEOcVaIY="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Web.smys4zoanc.pdb.gz",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/e6u1ryxfzv-smys4zoanc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15741"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dzioC6Qh/rAIfIUHBT6PBeHxxgLMdfFI1ueOSZd6wXA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 20:37:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72324,7 +73684,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vcartu5ufq"
+          "Value": "smys4zoanc"
         },
         {
           "Name": "label",
@@ -72332,7 +73692,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-qJCNG4ICKK2pNO1d3dU9RKAA/CH9gEttido1WNKum38="
+          "Value": "sha256-dzioC6Qh/rAIfIUHBT6PBeHxxgLMdfFI1ueOSZd6wXA="
         }
       ]
     },
@@ -72347,7 +73707,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13077"
+          "Value": "24853"
         },
         {
           "Name": "Content-Type",
@@ -72355,11 +73715,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4ie73KlCEQGNcJPBQMAexZ6eBYfk19knd4Lw9JnSrxY=\""
+          "Value": "\"wJhfg/NU8GkjjWqhKGD6bcsnyQKkiVWT4Yr3ofgT+Zk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 18:32:50 GMT"
+          "Value": "Sun, 25 May 2025 20:37:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72369,18 +73729,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4ie73KlCEQGNcJPBQMAexZ6eBYfk19knd4Lw9JnSrxY="
+          "Value": "sha256-wJhfg/NU8GkjjWqhKGD6bcsnyQKkiVWT4Yr3ofgT+Zk="
         }
       ]
     },
     {
       "Route": "_framework/Web.wasm",
-      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/dodzdl0sce-u47gomayxr.gz",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/dodzdl0sce-kjsxuvhzej.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000162416761"
+          "Quality": "0.000086229197"
         }
       ],
       "ResponseHeaders": [
@@ -72390,15 +73750,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6156"
+          "Value": "11596"
         },
         {
           "Name": "ETag",
-          "Value": "\"7fsOwQ1DR7Uz/KHePCu9QyT6twgveFrQss1Z/mtgPq0=\""
+          "Value": "\"ipSae5cACH2M3KPUXcnvOa1vBmXN5y6dYVajOK8546w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 18:32:51 GMT"
+          "Value": "Sun, 25 May 2025 20:37:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72418,19 +73778,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"4ie73KlCEQGNcJPBQMAexZ6eBYfk19knd4Lw9JnSrxY=\""
+          "Value": "W/\"wJhfg/NU8GkjjWqhKGD6bcsnyQKkiVWT4Yr3ofgT+Zk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4ie73KlCEQGNcJPBQMAexZ6eBYfk19knd4Lw9JnSrxY="
+          "Value": "sha256-wJhfg/NU8GkjjWqhKGD6bcsnyQKkiVWT4Yr3ofgT+Zk="
         }
       ]
     },
     {
       "Route": "_framework/Web.wasm.gz",
-      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/dodzdl0sce-u47gomayxr.gz",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/dodzdl0sce-kjsxuvhzej.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -72439,7 +73799,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6156"
+          "Value": "11596"
         },
         {
           "Name": "Content-Type",
@@ -72447,11 +73807,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7fsOwQ1DR7Uz/KHePCu9QyT6twgveFrQss1Z/mtgPq0=\""
+          "Value": "\"ipSae5cACH2M3KPUXcnvOa1vBmXN5y6dYVajOK8546w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 18:32:51 GMT"
+          "Value": "Sun, 25 May 2025 20:37:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72469,7 +73829,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-7fsOwQ1DR7Uz/KHePCu9QyT6twgveFrQss1Z/mtgPq0="
+          "Value": "sha256-ipSae5cACH2M3KPUXcnvOa1vBmXN5y6dYVajOK8546w="
         }
       ]
     },
@@ -87323,12 +88683,12 @@
     },
     {
       "Route": "service-worker-assets.js",
-      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/gz4txohd4t-8kcdrraxvi.gz",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/gz4txohd4t-sgc33mg3pa.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000077549438"
+          "Quality": "0.000076370857"
         }
       ],
       "ResponseHeaders": [
@@ -87338,15 +88698,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12894"
+          "Value": "13093"
         },
         {
           "Name": "ETag",
-          "Value": "\"s1vFDwta2FXmYqi9NSqFKassGoIq5jWlV7JvAKLbxzw=\""
+          "Value": "\"s4aTs3k3C8rk5BppMxzAMkxt0bfQT5zmSyKn9iQNYrw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 18:32:50 GMT"
+          "Value": "Sun, 25 May 2025 20:37:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -87366,13 +88726,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"KFj/enZ3Hf24Qd9aBatq0A8TQ9oVyzKiGrf5vDc++/o=\""
+          "Value": "W/\"3Bz2jQ/ZrdU73b4Sq3C/3PtGXL8nuXXyrqoRO1QUyCU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KFj/enZ3Hf24Qd9aBatq0A8TQ9oVyzKiGrf5vDc++/o="
+          "Value": "sha256-3Bz2jQ/ZrdU73b4Sq3C/3PtGXL8nuXXyrqoRO1QUyCU="
         }
       ]
     },
@@ -87387,7 +88747,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "38574"
+          "Value": "39228"
         },
         {
           "Name": "Content-Type",
@@ -87395,11 +88755,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KFj/enZ3Hf24Qd9aBatq0A8TQ9oVyzKiGrf5vDc++/o=\""
+          "Value": "\"3Bz2jQ/ZrdU73b4Sq3C/3PtGXL8nuXXyrqoRO1QUyCU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 18:32:50 GMT"
+          "Value": "Sun, 25 May 2025 20:37:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -87409,13 +88769,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KFj/enZ3Hf24Qd9aBatq0A8TQ9oVyzKiGrf5vDc++/o="
+          "Value": "sha256-3Bz2jQ/ZrdU73b4Sq3C/3PtGXL8nuXXyrqoRO1QUyCU="
         }
       ]
     },
     {
       "Route": "service-worker-assets.js.gz",
-      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/gz4txohd4t-8kcdrraxvi.gz",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/gz4txohd4t-sgc33mg3pa.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -87424,7 +88784,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12894"
+          "Value": "13093"
         },
         {
           "Name": "Content-Type",
@@ -87432,11 +88792,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"s1vFDwta2FXmYqi9NSqFKassGoIq5jWlV7JvAKLbxzw=\""
+          "Value": "\"s4aTs3k3C8rk5BppMxzAMkxt0bfQT5zmSyKn9iQNYrw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 18:32:50 GMT"
+          "Value": "Sun, 25 May 2025 20:37:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -87454,13 +88814,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-s1vFDwta2FXmYqi9NSqFKassGoIq5jWlV7JvAKLbxzw="
+          "Value": "sha256-s4aTs3k3C8rk5BppMxzAMkxt0bfQT5zmSyKn9iQNYrw="
         }
       ]
     },
     {
       "Route": "service-worker.js",
-      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/e5jbp6bbax-gkgibanzon.gz",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/e5jbp6bbax-3vavkor477.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -87483,7 +88843,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 18:32:50 GMT"
+          "Value": "Sun, 25 May 2025 20:37:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -87503,13 +88863,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"oFit344ntqWLCNErglGmWYhmXrTspXB0bpPeRloPJ8U=\""
+          "Value": "W/\"QRMXJMQ6wMnb8xh1iisv9yEefR3lOPNjpjbnoYAUrH4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-oFit344ntqWLCNErglGmWYhmXrTspXB0bpPeRloPJ8U="
+          "Value": "sha256-QRMXJMQ6wMnb8xh1iisv9yEefR3lOPNjpjbnoYAUrH4="
         }
       ]
     },
@@ -87532,7 +88892,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oFit344ntqWLCNErglGmWYhmXrTspXB0bpPeRloPJ8U=\""
+          "Value": "\"QRMXJMQ6wMnb8xh1iisv9yEefR3lOPNjpjbnoYAUrH4=\""
         },
         {
           "Name": "Last-Modified",
@@ -87546,13 +88906,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-oFit344ntqWLCNErglGmWYhmXrTspXB0bpPeRloPJ8U="
+          "Value": "sha256-QRMXJMQ6wMnb8xh1iisv9yEefR3lOPNjpjbnoYAUrH4="
         }
       ]
     },
     {
       "Route": "service-worker.js.gz",
-      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/e5jbp6bbax-gkgibanzon.gz",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/e5jbp6bbax-3vavkor477.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -87573,7 +88933,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 18:32:50 GMT"
+          "Value": "Sun, 25 May 2025 20:37:32 GMT"
         },
         {
           "Name": "Cache-Control",

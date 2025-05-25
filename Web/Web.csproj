@@ -10,11 +10,11 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="9.0.2" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="9.0.2" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="9.0.5" />
     <PackageReference Include="MudBlazor" Version="8.6.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../Api/Api.csproj" />
   </ItemGroup>
 
   <ItemGroup>

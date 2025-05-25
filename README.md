@@ -295,7 +295,16 @@ public class ShellyTelemetry
 }
 ```
 
-- 
+## Deploying API To RaspberryPi
+To deploy the API to your RPI run the following commands in this series:
+
+`rsync -avz ./Api --rsh=ssh roy@royhome.local:/home/roy/dotnetbuild -I` - This will transfer the files from /Api folder when you're in project root to home/roy/dotnetbuild/Api on your raspberry Pi.
+
+`docker-compose up --build -d` - Compose Project
+
+`cd .. && sudo rm -rf Api` - Go up one folder and remove Api folder.
+
+`docker logs -f mqtt-api` - To view logs in realtime on the Api
 
 ## Shelly Topics
 #### ADC Reading (Voltage)

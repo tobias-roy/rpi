@@ -1,20 +1,22 @@
 ﻿@using MudBlazor
+@using Web.Services
+@inject DataService _dataService
 @page "/"
 
 <PageTitle>Home</PageTitle>
-
 <h1>Your indoor data!</h1>
+<MudButton @onclick="GetData">Load Data</MudButton>
 
 <MudPaper Class="doc-section-component-container">
-    <MudChart 
-        ChartType="ChartType.Line" 
-        ChartSeries="@_series" @bind-SelectedIndex="_index" 
-        XAxisLabels="@_xAxisLabels" 
-        Width="@_width" 
-        Height="@_height" 
-        ChartOptions="@_options" 
-        AxisChartOptions="_axisChartOptions" 
-    />
+    <MudChart
+        ChartType="ChartType.Line"
+        ChartSeries="@_series"
+        @bind-SelectedIndex="_index"
+        XAxisLabels="@_xAxisLabels"
+        Width="@_width"
+        Height="@_height"
+        ChartOptions="@_options"
+        AxisChartOptions="_axisChartOptions" />
 </MudPaper>
 
 @code {
@@ -23,14 +25,56 @@
     private AxisChartOptions _axisChartOptions = new AxisChartOptions();
     private string _width = "650px";
     private string _height = "350px";
+    private List<ChartSeries> _series = new();
+    private string[] _xAxisLabels = Array.Empty<string>();
 
-    private List<ChartSeries> _series = new List<ChartSeries>()
+    protected override async Task OnInitializedAsync()
     {
-        new ChartSeries() { Name = "Blackbird", Data = new double[] { 90, 79, 72, 69, 62, 62, 55, 65, 70 } },
-        new ChartSeries() { Name = "Whitebird", Data = new double[] { 10, 41, 35, 51, 49, 62, 69, 91, 148 } },
-    };
-    private string[] _xAxisLabels = { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep" };
+        await GetData();
+    }
 
-    
+    private async Task GetData()
+    {
+        var result = await _dataService.GetBirdieData(CancellationToken.None);
+        if (result is null || result.Count == 0)
+            return;
+
+        var blackbird = result.Where(x => x.Device == "BlackBird").OrderBy(x => x.Received_At).ToList();
+        var whitebird = result.Where(x => x.Device == "WhiteBird").OrderBy(x => x.Received_At).ToList();
+
+        // Take every nth item to get about 5 points
+        var blackbirdReduced = TakeEveryNth(blackbird, 5);
+        var whitebirdReduced = TakeEveryNth(whitebird, 5);
+
+        var blackbirdCo2 = blackbirdReduced.Select(x => (double)x.Co2).ToArray();
+        var whitebirdCo2 = whitebirdReduced.Select(x => (double)x.Co2).ToArray();
+
+        _xAxisLabels = blackbirdReduced.Select(x => x.Received_At.ToString("HH:mm")).ToArray();
+
+        _series = new List<ChartSeries>
+        {
+            new ChartSeries { Name = "BlackBird", Data = blackbirdCo2 },
+            new ChartSeries { Name = "WhiteBird", Data = whitebirdCo2 }
+        };
+
+        StateHasChanged();
+    }
+
+    private List<T> TakeEveryNth<T>(List<T> source, int targetCount)
+    {
+        if (source.Count <= targetCount)
+            return source;
+
+        var step = source.Count / targetCount;
+        var result = new List<T>();
+
+        for (int i = 0; i < targetCount; i++)
+        {
+            var index = i * step;
+            if (index < source.Count)
+                result.Add(source[index]);
+        }
+
+        return result;
+    }
 }
-

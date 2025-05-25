@@ -20,8 +20,20 @@ builder.Services.Configure<MqttBrokerOptions>(builder.Configuration.GetSection("
 builder.Services.AddSingleton<IMqttClientService, MqttClientService>();
 builder.Services.AddHostedService<MqttBackgroundService>();
 
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+    {
+        policy
+            .WithOrigins("http://localhost:5173", "http://localhost:5000", "http://192.168.0.194:5000") // Add your frontend URLs here
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+});
+
 var app = builder.Build();
 
+app.UseCors();
 app.UseSwagger();
 app.UseSwaggerUI();
 

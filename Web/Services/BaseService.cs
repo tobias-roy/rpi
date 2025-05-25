@@ -1,19 +1,19 @@
 using System.Text;
 using System.Text.Json;
 
-namespace Sensora.APIClients.Services;
+namespace Web.Services;
 
-public interface IBaseApiService {
+public interface IBaseService {
     Task<T?> GetAsync<T>(string uri, CancellationToken cancellationToken = default);
     Task<T?> PostAsync<T>(string uri, T data, CancellationToken cancellationToken = default);
 }
 
-public class BaseApiService : IBaseApiService
+public class BaseService : IBaseService
 {
-    private readonly HttpClient _httpClient;
+        private readonly HttpClient _httpClient;
     private readonly JsonSerializerOptions _jsonOptions;
 
-    protected BaseApiService(HttpClient httpClient){
+    protected BaseService(HttpClient httpClient){
         _httpClient = httpClient;
         _jsonOptions = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
     }

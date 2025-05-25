@@ -1,16 +1,18 @@
 using System.Diagnostics;
-using Api.Models;
+using Web.Models;
 
 namespace Web.Services;
 
 public interface IDataService
 {
-    Task<List<D1Payload>> GetBirdieData(DateTime start, DateTime end, CancellationToken cancellationToken = default);
+    // Task<List<D1Payload>> GetBirdieData(DateTime? start, DateTime? end, CancellationToken cancellationToken = default);
+    Task<List<D1Payload>> GetBirdieData(CancellationToken cancellationToken = default);
 }
 
 public class DataService(HttpClient httpClient) : BaseService(httpClient), IDataService
 {
-    public async Task<List<TelemetryData>> GetBirdieData(DateTime start, DateTime end, CancellationToken cancellationToken)
+    // public async Task<List<D1Payload>> GetBirdieData(DateTime? start, DateTime? end, CancellationToken cancellationToken)
+    public async Task<List<D1Payload>> GetBirdieData(CancellationToken cancellationToken)
     {
         try
         {
