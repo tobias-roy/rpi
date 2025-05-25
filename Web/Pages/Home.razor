@@ -1,0 +1,36 @@
+﻿@using MudBlazor
+@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1>Your indoor data!</h1>
+
+<MudPaper Class="doc-section-component-container">
+    <MudChart 
+        ChartType="ChartType.Line" 
+        ChartSeries="@_series" @bind-SelectedIndex="_index" 
+        XAxisLabels="@_xAxisLabels" 
+        Width="@_width" 
+        Height="@_height" 
+        ChartOptions="@_options" 
+        AxisChartOptions="_axisChartOptions" 
+    />
+</MudPaper>
+
+@code {
+    private int _index = -1;
+    private ChartOptions _options = new ChartOptions();
+    private AxisChartOptions _axisChartOptions = new AxisChartOptions();
+    private string _width = "650px";
+    private string _height = "350px";
+
+    private List<ChartSeries> _series = new List<ChartSeries>()
+    {
+        new ChartSeries() { Name = "Blackbird", Data = new double[] { 90, 79, 72, 69, 62, 62, 55, 65, 70 } },
+        new ChartSeries() { Name = "Whitebird", Data = new double[] { 10, 41, 35, 51, 49, 62, 69, 91, 148 } },
+    };
+    private string[] _xAxisLabels = { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep" };
+
+    
+}
+
