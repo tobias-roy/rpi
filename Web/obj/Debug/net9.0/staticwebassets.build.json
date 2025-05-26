@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BaLMNOoXB/qu/OGUgcZT6aGmry7po4X8RQc2NrNmwwo=",
+  "Hash": "IR/vfbcJY/B10PNcQGDULZCDLg30dxP3fdmkAnZXfGk=",
   "Source": "Web",
   "BasePath": "/",
   "Mode": "Root",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "uja3msjay6",
-      "Integrity": "1jH5YLoe5Y636xdYmV5lbEhO7GkjAYT+FscVeafNaE8=",
+      "Fingerprint": "20ev15pn2j",
+      "Integrity": "on3TSlJgRp4+Aa2t9SU/Z75KtfR55+Tx8jCCpubnYJs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/blazor.boot.json"
@@ -4441,8 +4441,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "smys4zoanc",
-      "Integrity": "rHFhCmTqWt+bfyb8qypHNE4Tuy3X/IsUeyglEOcVaIY=",
+      "Fingerprint": "xgtpjd05eb",
+      "Integrity": "cegkoTEHu3xIg8sL6M1LPw4HCmA8GFVknw2DnqshpwA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/Web.pdb"
@@ -4462,8 +4462,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "kjsxuvhzej",
-      "Integrity": "wJhfg/NU8GkjjWqhKGD6bcsnyQKkiVWT4Yr3ofgT+Zk=",
+      "Fingerprint": "yjv2kzyz2d",
+      "Integrity": "PuxfgUu3K8ljKP4iCOf8tcbTt53ddIZfx/11X9UAqEk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/webcil/Web.wasm"
@@ -6485,12 +6485,12 @@
       "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/System.Net.Security.wasm"
     },
     {
-      "Identity": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/dodzdl0sce-kjsxuvhzej.gz",
+      "Identity": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/dodzdl0sce-yjv2kzyz2d.gz",
       "SourceId": "Web",
       "SourceType": "Computed",
       "ContentRoot": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/Web#[.{fingerprint=kjsxuvhzej}]!.wasm.gz",
+      "RelativePath": "_framework/Web#[.{fingerprint=yjv2kzyz2d}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -6499,8 +6499,8 @@
       "RelatedAsset": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Web.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ari2cdwbn0",
-      "Integrity": "ipSae5cACH2M3KPUXcnvOa1vBmXN5y6dYVajOK8546w=",
+      "Fingerprint": "v890cwpzpt",
+      "Integrity": "z4oQeWL5yXl6qaGWLIjMAq6Za/dpAiqec8nyTd9XtsU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Web.wasm"
@@ -6527,7 +6527,7 @@
       "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/e5jbp6bbax-3vavkor477.gz",
+      "Identity": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/e5jbp6bbax-wf5ruocidf.gz",
       "SourceId": "Web",
       "SourceType": "Computed",
       "ContentRoot": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/",
@@ -6569,12 +6569,12 @@
       "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/System.ServiceProcess.wasm"
     },
     {
-      "Identity": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/e6u1ryxfzv-smys4zoanc.gz",
+      "Identity": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/e6u1ryxfzv-xgtpjd05eb.gz",
       "SourceId": "Web",
       "SourceType": "Computed",
       "ContentRoot": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/Web#[.{fingerprint=smys4zoanc}]!.pdb.gz",
+      "RelativePath": "_framework/Web#[.{fingerprint=xgtpjd05eb}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -6583,8 +6583,8 @@
       "RelatedAsset": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Web.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "b3chtxgayd",
-      "Integrity": "dzioC6Qh/rAIfIUHBT6PBeHxxgLMdfFI1ueOSZd6wXA=",
+      "Fingerprint": "jwo6yjijnj",
+      "Integrity": "bc54fUJ3Heq0DO2OVFnbUFvfA/bff9q1WzkFTvoJUJc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Web.pdb"
@@ -6863,7 +6863,7 @@
       "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/System.Drawing.Primitives.wasm"
     },
     {
-      "Identity": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/gz4txohd4t-sgc33mg3pa.gz",
+      "Identity": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/gz4txohd4t-mvfyet1utc.gz",
       "SourceId": "Web",
       "SourceType": "Computed",
       "ContentRoot": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/",
@@ -6877,8 +6877,8 @@
       "RelatedAsset": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/service-worker/service-worker-assets.js.build",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "5y4ltw324x",
-      "Integrity": "s4aTs3k3C8rk5BppMxzAMkxt0bfQT5zmSyKn9iQNYrw=",
+      "Fingerprint": "7ts0dmcekt",
+      "Integrity": "2xbsUw1UY6hnf1FygqGS9wTRPoNZIYQtRKZGtmaLcXc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/service-worker/service-worker-assets.js.build"
@@ -8585,7 +8585,7 @@
       "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/roury21wbo-uja3msjay6.gz",
+      "Identity": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/roury21wbo-20ev15pn2j.gz",
       "SourceId": "Web",
       "SourceType": "Computed",
       "ContentRoot": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/",
@@ -8599,8 +8599,8 @@
       "RelatedAsset": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "gn7j98t66o",
-      "Integrity": "fMYZ0bA8o7891hkogJPeiVEF2rrjqkXtxf9m2GSqeGA=",
+      "Fingerprint": "9na4weqzqz",
+      "Integrity": "5YasNzINK69Zt0K+CRNRA035idTJ7qvURrLT5TM/Zes=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json"
@@ -10111,8 +10111,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "BlazorServiceWorker",
       "AssetTraitValue": "ServiceWorkerManifest",
-      "Fingerprint": "sgc33mg3pa",
-      "Integrity": "3Bz2jQ/ZrdU73b4Sq3C/3PtGXL8nuXXyrqoRO1QUyCU=",
+      "Fingerprint": "mvfyet1utc",
+      "Integrity": "4nbLk8Sz8AQ73f7HXNpopwrjykkzpfZOPRnsS0D5cZc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/service-worker/service-worker-assets.js.build"
@@ -10132,8 +10132,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "BlazorServiceWorker",
       "AssetTraitValue": "ServiceWorkerJs",
-      "Fingerprint": "3vavkor477",
-      "Integrity": "QRMXJMQ6wMnb8xh1iisv9yEefR3lOPNjpjbnoYAUrH4=",
+      "Fingerprint": "wf5ruocidf",
+      "Integrity": "TNLBxr18jM1lNp/Eewv/i7NZ720gz3/Q5ghZyXnv8PU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "wwwroot/service-worker.js"
@@ -11594,7 +11594,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1jH5YLoe5Y636xdYmV5lbEhO7GkjAYT+FscVeafNaE8=\""
+          "Value": "\"on3TSlJgRp4+Aa2t9SU/Z75KtfR55+Tx8jCCpubnYJs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 03:35:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-on3TSlJgRp4+Aa2t9SU/Z75KtfR55+Tx8jCCpubnYJs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/blazor.boot.json",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/roury21wbo-20ev15pn2j.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000078721562"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12702"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5YasNzINK69Zt0K+CRNRA035idTJ7qvURrLT5TM/Zes=\""
         },
         {
           "Name": "Last-Modified",
@@ -11603,45 +11642,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-1jH5YLoe5Y636xdYmV5lbEhO7GkjAYT+FscVeafNaE8="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/blazor.boot.json",
-      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/roury21wbo-uja3msjay6.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000078696781"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "12706"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fMYZ0bA8o7891hkogJPeiVEF2rrjqkXtxf9m2GSqeGA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 20:36:53 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -11657,19 +11657,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"1jH5YLoe5Y636xdYmV5lbEhO7GkjAYT+FscVeafNaE8=\""
+          "Value": "W/\"on3TSlJgRp4+Aa2t9SU/Z75KtfR55+Tx8jCCpubnYJs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1jH5YLoe5Y636xdYmV5lbEhO7GkjAYT+FscVeafNaE8="
+          "Value": "sha256-on3TSlJgRp4+Aa2t9SU/Z75KtfR55+Tx8jCCpubnYJs="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/roury21wbo-uja3msjay6.gz",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/roury21wbo-20ev15pn2j.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11678,7 +11678,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12706"
+          "Value": "12702"
         },
         {
           "Name": "Content-Type",
@@ -11686,11 +11686,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fMYZ0bA8o7891hkogJPeiVEF2rrjqkXtxf9m2GSqeGA=\""
+          "Value": "\"5YasNzINK69Zt0K+CRNRA035idTJ7qvURrLT5TM/Zes=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 20:36:53 GMT"
+          "Value": "Sun, 25 May 2025 20:37:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11708,7 +11708,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fMYZ0bA8o7891hkogJPeiVEF2rrjqkXtxf9m2GSqeGA="
+          "Value": "sha256-5YasNzINK69Zt0K+CRNRA035idTJ7qvURrLT5TM/Zes="
         }
       ]
     },
@@ -73238,7 +73238,144 @@
       ]
     },
     {
-      "Route": "_framework/Web.kjsxuvhzej.wasm",
+      "Route": "_framework/Web.pdb",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Web.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24084"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cegkoTEHu3xIg8sL6M1LPw4HCmA8GFVknw2DnqshpwA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 03:35:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cegkoTEHu3xIg8sL6M1LPw4HCmA8GFVknw2DnqshpwA="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Web.pdb",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/e6u1ryxfzv-xgtpjd05eb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000061996280"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16129"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bc54fUJ3Heq0DO2OVFnbUFvfA/bff9q1WzkFTvoJUJc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 03:35:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"cegkoTEHu3xIg8sL6M1LPw4HCmA8GFVknw2DnqshpwA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cegkoTEHu3xIg8sL6M1LPw4HCmA8GFVknw2DnqshpwA="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Web.pdb.gz",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/e6u1ryxfzv-xgtpjd05eb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16129"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bc54fUJ3Heq0DO2OVFnbUFvfA/bff9q1WzkFTvoJUJc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 03:35:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bc54fUJ3Heq0DO2OVFnbUFvfA/bff9q1WzkFTvoJUJc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Web.wasm",
       "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Web.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -73256,40 +73393,32 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wJhfg/NU8GkjjWqhKGD6bcsnyQKkiVWT4Yr3ofgT+Zk=\""
+          "Value": "\"PuxfgUu3K8ljKP4iCOf8tcbTt53ddIZfx/11X9UAqEk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 20:37:31 GMT"
+          "Value": "Mon, 26 May 2025 03:35:33 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "kjsxuvhzej"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Web.wasm"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-wJhfg/NU8GkjjWqhKGD6bcsnyQKkiVWT4Yr3ofgT+Zk="
+          "Value": "sha256-PuxfgUu3K8ljKP4iCOf8tcbTt53ddIZfx/11X9UAqEk="
         }
       ]
     },
     {
-      "Route": "_framework/Web.kjsxuvhzej.wasm",
-      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/dodzdl0sce-kjsxuvhzej.gz",
+      "Route": "_framework/Web.wasm",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/dodzdl0sce-yjv2kzyz2d.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000086229197"
+          "Quality": "0.000084702694"
         }
       ],
       "ResponseHeaders": [
@@ -73299,19 +73428,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11596"
+          "Value": "11805"
         },
         {
           "Name": "ETag",
-          "Value": "\"ipSae5cACH2M3KPUXcnvOa1vBmXN5y6dYVajOK8546w=\""
+          "Value": "\"z4oQeWL5yXl6qaGWLIjMAq6Za/dpAiqec8nyTd9XtsU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 20:37:32 GMT"
+          "Value": "Mon, 26 May 2025 03:35:34 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -73327,27 +73456,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"wJhfg/NU8GkjjWqhKGD6bcsnyQKkiVWT4Yr3ofgT+Zk=\""
+          "Value": "W/\"PuxfgUu3K8ljKP4iCOf8tcbTt53ddIZfx/11X9UAqEk=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "kjsxuvhzej"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Web.wasm"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-wJhfg/NU8GkjjWqhKGD6bcsnyQKkiVWT4Yr3ofgT+Zk="
+          "Value": "sha256-PuxfgUu3K8ljKP4iCOf8tcbTt53ddIZfx/11X9UAqEk="
         }
       ]
     },
     {
-      "Route": "_framework/Web.kjsxuvhzej.wasm.gz",
-      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/dodzdl0sce-kjsxuvhzej.gz",
+      "Route": "_framework/Web.wasm.gz",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/dodzdl0sce-yjv2kzyz2d.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -73356,7 +73477,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11596"
+          "Value": "11805"
         },
         {
           "Name": "Content-Type",
@@ -73364,15 +73485,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ipSae5cACH2M3KPUXcnvOa1vBmXN5y6dYVajOK8546w=\""
+          "Value": "\"z4oQeWL5yXl6qaGWLIjMAq6Za/dpAiqec8nyTd9XtsU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 20:37:32 GMT"
+          "Value": "Mon, 26 May 2025 03:35:34 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -73385,21 +73506,13 @@
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "kjsxuvhzej"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Web.wasm.gz"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-ipSae5cACH2M3KPUXcnvOa1vBmXN5y6dYVajOK8546w="
+          "Value": "sha256-z4oQeWL5yXl6qaGWLIjMAq6Za/dpAiqec8nyTd9XtsU="
         }
       ]
     },
     {
-      "Route": "_framework/Web.pdb",
+      "Route": "_framework/Web.xgtpjd05eb.pdb",
       "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Web.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -73409,7 +73522,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23636"
+          "Value": "24084"
         },
         {
           "Name": "Content-Type",
@@ -73417,148 +73530,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rHFhCmTqWt+bfyb8qypHNE4Tuy3X/IsUeyglEOcVaIY=\""
+          "Value": "\"cegkoTEHu3xIg8sL6M1LPw4HCmA8GFVknw2DnqshpwA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 20:37:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-rHFhCmTqWt+bfyb8qypHNE4Tuy3X/IsUeyglEOcVaIY="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Web.pdb",
-      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/e6u1ryxfzv-smys4zoanc.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000063524330"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "15741"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dzioC6Qh/rAIfIUHBT6PBeHxxgLMdfFI1ueOSZd6wXA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 20:37:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"rHFhCmTqWt+bfyb8qypHNE4Tuy3X/IsUeyglEOcVaIY=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-rHFhCmTqWt+bfyb8qypHNE4Tuy3X/IsUeyglEOcVaIY="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Web.pdb.gz",
-      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/e6u1ryxfzv-smys4zoanc.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "15741"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dzioC6Qh/rAIfIUHBT6PBeHxxgLMdfFI1ueOSZd6wXA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 20:37:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-dzioC6Qh/rAIfIUHBT6PBeHxxgLMdfFI1ueOSZd6wXA="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Web.smys4zoanc.pdb",
-      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Web.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "23636"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"rHFhCmTqWt+bfyb8qypHNE4Tuy3X/IsUeyglEOcVaIY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 20:37:31 GMT"
+          "Value": "Mon, 26 May 2025 03:35:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73568,7 +73544,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "smys4zoanc"
+          "Value": "xgtpjd05eb"
         },
         {
           "Name": "label",
@@ -73576,18 +73552,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-rHFhCmTqWt+bfyb8qypHNE4Tuy3X/IsUeyglEOcVaIY="
+          "Value": "sha256-cegkoTEHu3xIg8sL6M1LPw4HCmA8GFVknw2DnqshpwA="
         }
       ]
     },
     {
-      "Route": "_framework/Web.smys4zoanc.pdb",
-      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/e6u1ryxfzv-smys4zoanc.gz",
+      "Route": "_framework/Web.xgtpjd05eb.pdb",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/e6u1ryxfzv-xgtpjd05eb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000063524330"
+          "Quality": "0.000061996280"
         }
       ],
       "ResponseHeaders": [
@@ -73597,15 +73573,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15741"
+          "Value": "16129"
         },
         {
           "Name": "ETag",
-          "Value": "\"dzioC6Qh/rAIfIUHBT6PBeHxxgLMdfFI1ueOSZd6wXA=\""
+          "Value": "\"bc54fUJ3Heq0DO2OVFnbUFvfA/bff9q1WzkFTvoJUJc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 20:37:32 GMT"
+          "Value": "Mon, 26 May 2025 03:35:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73625,13 +73601,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"rHFhCmTqWt+bfyb8qypHNE4Tuy3X/IsUeyglEOcVaIY=\""
+          "Value": "W/\"cegkoTEHu3xIg8sL6M1LPw4HCmA8GFVknw2DnqshpwA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "smys4zoanc"
+          "Value": "xgtpjd05eb"
         },
         {
           "Name": "label",
@@ -73639,13 +73615,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-rHFhCmTqWt+bfyb8qypHNE4Tuy3X/IsUeyglEOcVaIY="
+          "Value": "sha256-cegkoTEHu3xIg8sL6M1LPw4HCmA8GFVknw2DnqshpwA="
         }
       ]
     },
     {
-      "Route": "_framework/Web.smys4zoanc.pdb.gz",
-      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/e6u1ryxfzv-smys4zoanc.gz",
+      "Route": "_framework/Web.xgtpjd05eb.pdb.gz",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/e6u1ryxfzv-xgtpjd05eb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -73654,7 +73630,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15741"
+          "Value": "16129"
         },
         {
           "Name": "Content-Type",
@@ -73662,11 +73638,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dzioC6Qh/rAIfIUHBT6PBeHxxgLMdfFI1ueOSZd6wXA=\""
+          "Value": "\"bc54fUJ3Heq0DO2OVFnbUFvfA/bff9q1WzkFTvoJUJc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 20:37:32 GMT"
+          "Value": "Mon, 26 May 2025 03:35:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73684,7 +73660,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "smys4zoanc"
+          "Value": "xgtpjd05eb"
         },
         {
           "Name": "label",
@@ -73692,12 +73668,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dzioC6Qh/rAIfIUHBT6PBeHxxgLMdfFI1ueOSZd6wXA="
+          "Value": "sha256-bc54fUJ3Heq0DO2OVFnbUFvfA/bff9q1WzkFTvoJUJc="
         }
       ]
     },
     {
-      "Route": "_framework/Web.wasm",
+      "Route": "_framework/Web.yjv2kzyz2d.wasm",
       "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/bin/Debug/net9.0/wwwroot/_framework/Web.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -73715,32 +73691,40 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wJhfg/NU8GkjjWqhKGD6bcsnyQKkiVWT4Yr3ofgT+Zk=\""
+          "Value": "\"PuxfgUu3K8ljKP4iCOf8tcbTt53ddIZfx/11X9UAqEk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 20:37:31 GMT"
+          "Value": "Mon, 26 May 2025 03:35:33 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "yjv2kzyz2d"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Web.wasm"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-wJhfg/NU8GkjjWqhKGD6bcsnyQKkiVWT4Yr3ofgT+Zk="
+          "Value": "sha256-PuxfgUu3K8ljKP4iCOf8tcbTt53ddIZfx/11X9UAqEk="
         }
       ]
     },
     {
-      "Route": "_framework/Web.wasm",
-      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/dodzdl0sce-kjsxuvhzej.gz",
+      "Route": "_framework/Web.yjv2kzyz2d.wasm",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/dodzdl0sce-yjv2kzyz2d.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000086229197"
+          "Quality": "0.000084702694"
         }
       ],
       "ResponseHeaders": [
@@ -73750,19 +73734,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11596"
+          "Value": "11805"
         },
         {
           "Name": "ETag",
-          "Value": "\"ipSae5cACH2M3KPUXcnvOa1vBmXN5y6dYVajOK8546w=\""
+          "Value": "\"z4oQeWL5yXl6qaGWLIjMAq6Za/dpAiqec8nyTd9XtsU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 20:37:32 GMT"
+          "Value": "Mon, 26 May 2025 03:35:34 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -73778,19 +73762,27 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"wJhfg/NU8GkjjWqhKGD6bcsnyQKkiVWT4Yr3ofgT+Zk=\""
+          "Value": "W/\"PuxfgUu3K8ljKP4iCOf8tcbTt53ddIZfx/11X9UAqEk=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "yjv2kzyz2d"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Web.wasm"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-wJhfg/NU8GkjjWqhKGD6bcsnyQKkiVWT4Yr3ofgT+Zk="
+          "Value": "sha256-PuxfgUu3K8ljKP4iCOf8tcbTt53ddIZfx/11X9UAqEk="
         }
       ]
     },
     {
-      "Route": "_framework/Web.wasm.gz",
-      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/dodzdl0sce-kjsxuvhzej.gz",
+      "Route": "_framework/Web.yjv2kzyz2d.wasm.gz",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/dodzdl0sce-yjv2kzyz2d.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -73799,7 +73791,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11596"
+          "Value": "11805"
         },
         {
           "Name": "Content-Type",
@@ -73807,15 +73799,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ipSae5cACH2M3KPUXcnvOa1vBmXN5y6dYVajOK8546w=\""
+          "Value": "\"z4oQeWL5yXl6qaGWLIjMAq6Za/dpAiqec8nyTd9XtsU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 20:37:32 GMT"
+          "Value": "Mon, 26 May 2025 03:35:34 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -73828,8 +73820,16 @@
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "yjv2kzyz2d"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Web.wasm.gz"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-ipSae5cACH2M3KPUXcnvOa1vBmXN5y6dYVajOK8546w="
+          "Value": "sha256-z4oQeWL5yXl6qaGWLIjMAq6Za/dpAiqec8nyTd9XtsU="
         }
       ]
     },
@@ -88683,12 +88683,12 @@
     },
     {
       "Route": "service-worker-assets.js",
-      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/gz4txohd4t-sgc33mg3pa.gz",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/gz4txohd4t-mvfyet1utc.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000076370857"
+          "Quality": "0.000076382524"
         }
       ],
       "ResponseHeaders": [
@@ -88698,15 +88698,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13093"
+          "Value": "13091"
         },
         {
           "Name": "ETag",
-          "Value": "\"s4aTs3k3C8rk5BppMxzAMkxt0bfQT5zmSyKn9iQNYrw=\""
+          "Value": "\"2xbsUw1UY6hnf1FygqGS9wTRPoNZIYQtRKZGtmaLcXc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 20:37:32 GMT"
+          "Value": "Mon, 26 May 2025 03:35:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -88726,13 +88726,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"3Bz2jQ/ZrdU73b4Sq3C/3PtGXL8nuXXyrqoRO1QUyCU=\""
+          "Value": "W/\"4nbLk8Sz8AQ73f7HXNpopwrjykkzpfZOPRnsS0D5cZc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3Bz2jQ/ZrdU73b4Sq3C/3PtGXL8nuXXyrqoRO1QUyCU="
+          "Value": "sha256-4nbLk8Sz8AQ73f7HXNpopwrjykkzpfZOPRnsS0D5cZc="
         }
       ]
     },
@@ -88755,11 +88755,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3Bz2jQ/ZrdU73b4Sq3C/3PtGXL8nuXXyrqoRO1QUyCU=\""
+          "Value": "\"4nbLk8Sz8AQ73f7HXNpopwrjykkzpfZOPRnsS0D5cZc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 20:37:32 GMT"
+          "Value": "Mon, 26 May 2025 03:35:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -88769,13 +88769,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3Bz2jQ/ZrdU73b4Sq3C/3PtGXL8nuXXyrqoRO1QUyCU="
+          "Value": "sha256-4nbLk8Sz8AQ73f7HXNpopwrjykkzpfZOPRnsS0D5cZc="
         }
       ]
     },
     {
       "Route": "service-worker-assets.js.gz",
-      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/gz4txohd4t-sgc33mg3pa.gz",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/gz4txohd4t-mvfyet1utc.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -88784,7 +88784,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13093"
+          "Value": "13091"
         },
         {
           "Name": "Content-Type",
@@ -88792,11 +88792,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"s4aTs3k3C8rk5BppMxzAMkxt0bfQT5zmSyKn9iQNYrw=\""
+          "Value": "\"2xbsUw1UY6hnf1FygqGS9wTRPoNZIYQtRKZGtmaLcXc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 20:37:32 GMT"
+          "Value": "Mon, 26 May 2025 03:35:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -88814,13 +88814,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-s4aTs3k3C8rk5BppMxzAMkxt0bfQT5zmSyKn9iQNYrw="
+          "Value": "sha256-2xbsUw1UY6hnf1FygqGS9wTRPoNZIYQtRKZGtmaLcXc="
         }
       ]
     },
     {
       "Route": "service-worker.js",
-      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/e5jbp6bbax-3vavkor477.gz",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/e5jbp6bbax-wf5ruocidf.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -88843,7 +88843,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 20:37:32 GMT"
+          "Value": "Mon, 26 May 2025 03:35:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -88863,13 +88863,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"QRMXJMQ6wMnb8xh1iisv9yEefR3lOPNjpjbnoYAUrH4=\""
+          "Value": "W/\"TNLBxr18jM1lNp/Eewv/i7NZ720gz3/Q5ghZyXnv8PU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-QRMXJMQ6wMnb8xh1iisv9yEefR3lOPNjpjbnoYAUrH4="
+          "Value": "sha256-TNLBxr18jM1lNp/Eewv/i7NZ720gz3/Q5ghZyXnv8PU="
         }
       ]
     },
@@ -88892,7 +88892,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QRMXJMQ6wMnb8xh1iisv9yEefR3lOPNjpjbnoYAUrH4=\""
+          "Value": "\"TNLBxr18jM1lNp/Eewv/i7NZ720gz3/Q5ghZyXnv8PU=\""
         },
         {
           "Name": "Last-Modified",
@@ -88906,13 +88906,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-QRMXJMQ6wMnb8xh1iisv9yEefR3lOPNjpjbnoYAUrH4="
+          "Value": "sha256-TNLBxr18jM1lNp/Eewv/i7NZ720gz3/Q5ghZyXnv8PU="
         }
       ]
     },
     {
       "Route": "service-worker.js.gz",
-      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/e5jbp6bbax-3vavkor477.gz",
+      "AssetFile": "/Users/roy/Documents/Projects/rpi/Web/obj/Debug/net9.0/compressed/e5jbp6bbax-wf5ruocidf.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -88933,7 +88933,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 20:37:32 GMT"
+          "Value": "Mon, 26 May 2025 03:35:34 GMT"
         },
         {
           "Name": "Cache-Control",

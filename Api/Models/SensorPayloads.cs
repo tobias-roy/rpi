@@ -2,10 +2,12 @@ namespace Api.Models;
 
 public class D1Payload
 {
-    public int Co2 { get; set; }
-    public float Temperature { get; set; }
-    public float Humidity { get; set; }
-    public string Device { get; set; } = String.Empty;
+    public int id { get; set; }
+    public int co2 { get; set; }
+    public float temperature { get; set; }
+    public float humidity { get; set; }
+    public string device { get; set; } = String.Empty;
+    public DateTime? received_at { get; set; }
 }
 
 public class ShellyVoltage

@@ -1,5 +1,7 @@
+using Api;
 using Api.Models;
 using Api.Services;
+using Microsoft.EntityFrameworkCore;
 using Npgsql;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,6 +22,9 @@ builder.Services.Configure<MqttBrokerOptions>(builder.Configuration.GetSection("
 builder.Services.AddSingleton<IMqttClientService, MqttClientService>();
 builder.Services.AddHostedService<MqttBackgroundService>();
 
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("Postgres")));
+
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
@@ -39,39 +44,49 @@ app.UseSwaggerUI();
 
 app.MapGet("/", () => "MQTT Api Online");
 
-app.MapGet("/data", async (HttpContext ctx, ILogger<Program> _logger) =>
+app.MapGet("/wemos/historical", async (
+    DateTime? from,
+    DateTime? to,
+    AppDbContext db,
+    ILogger<Program> logger
+) =>
 {
     try
     {
-        var config = ctx.RequestServices.GetRequiredService<IConfiguration>();
-        await using var conn = new NpgsqlConnection(config.GetConnectionString("Postgres"));
-        await conn.OpenAsync();
+        from ??= DateTime.MinValue;
+        to ??= DateTime.UtcNow;
 
-        var cmd = new NpgsqlCommand("SELECT * FROM wemos_data ORDER BY received_at DESC LIMIT 50", conn);
-        var reader = await cmd.ExecuteReaderAsync();
+        var data = await db.wemos_data
+            .Where(x => x.received_at > from && x.received_at < to)
+            .OrderByDescending(x => x.received_at)
+            .ToListAsync();
 
-        var results = new List<object>();
-        while (await reader.ReadAsync())
-        {
-            results.Add(new
-            {
-                id = reader["id"],
-                device = reader["device"],
-                co2 = reader["co2"],
-                temperature = reader["temperature"],
-                humidity = reader["humidity"],
-                received_at = reader["received_at"]
-            });
-        }
+        return Results.Ok(data);
+    }
+    catch (Exception ex)
+    {
+        logger.LogError(ex, "Error retrieving historical data");
+        return Results.Problem("Failed to get historical data.");
+    }
+});
 
-        _logger.LogInformation("Successfully retrieved {Count} data records", results.Count);
+app.MapGet("/wemos", async (AppDbContext db, ILogger<Program> logger) =>
+{
+    try
+    {
+        var results = await db.wemos_data
+            .OrderByDescending(w => w.received_at)
+            .ToListAsync();
+
+        logger.LogInformation("Successfully retrieved {Count} data records", results.Count);
         return Results.Ok(results);
     }
     catch (Exception ex)
     {
-        _logger.LogError(ex, "Error while retrieving telemetry data");
+        logger.LogError(ex, "Error while retrieving telemetry data");
         return Results.Problem("An error occurred while retrieving data");
     }
 });
+
 
 app.Run();

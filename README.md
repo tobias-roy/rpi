@@ -59,6 +59,25 @@ You should now be connected to your Raspberry Pi! Now it's time to make sure we'
 
 `sudo apt upgrade` - to update your packages to the latest version.
 
+#### Fallback WiFi for supporting multiple locations
+```
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=DA
+
+network={
+    ssid="NOKIA-2081"
+    psk="NAKZ7bptq6"
+    priority=1
+}
+
+network={
+    ssid="SibirienAP"
+    psk="Siberia51244"
+    priority=2
+}
+```
+
 
 ## Docker
 Using docker on your RPI is not a requirement to run Mosquitto, but the containerised environment can be efficient in many use cases, so i do recommend this approach.
@@ -305,6 +324,8 @@ To deploy the API to your RPI run the following commands in this series:
 `cd .. && sudo rm -rf Api` - Go up one folder and remove Api folder.
 
 `docker logs -f mqtt-api` - To view logs in realtime on the Api
+
+`docker system df -v` - To view the size of docker images and containers
 
 ## Shelly Topics
 #### ADC Reading (Voltage)

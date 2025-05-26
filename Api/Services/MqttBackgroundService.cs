@@ -75,7 +75,7 @@ public class MqttBackgroundService : BackgroundService, IAsyncDisposable
         {
             D1Payload? d1Payload = JsonSerializer.Deserialize<D1Payload>(payload, options);
             _logger.LogInformation("Deserialized payload: {@d1Payload}", d1Payload);
-            if (d1Payload is null || string.IsNullOrWhiteSpace(d1Payload.Device))
+            if (d1Payload is null || string.IsNullOrWhiteSpace(d1Payload.device))
             {
                 _logger.LogWarning("Deserialized Birdie payload is null or missing 'device'");
                 return;
@@ -88,15 +88,15 @@ public class MqttBackgroundService : BackgroundService, IAsyncDisposable
             INSERT INTO wemos_data (device, co2, temperature, humidity, received_at) 
             VALUES (@device, @co2, @temp, @hum, @received_at)", conn);
 
-            cmd.Parameters.AddWithValue("device", d1Payload.Device);
-            cmd.Parameters.AddWithValue("co2", d1Payload.Co2);
-            cmd.Parameters.AddWithValue("temp", d1Payload.Temperature);
-            cmd.Parameters.AddWithValue("hum", d1Payload.Humidity);
+            cmd.Parameters.AddWithValue("device", d1Payload.device);
+            cmd.Parameters.AddWithValue("co2", d1Payload.co2);
+            cmd.Parameters.AddWithValue("temp", d1Payload.temperature);
+            cmd.Parameters.AddWithValue("hum", d1Payload.humidity);
             cmd.Parameters.AddWithValue("received_at", DateTime.UtcNow);
 
             await cmd.ExecuteNonQueryAsync();
 
-            _logger.LogInformation("Successfully added Birdie telemetry to DB: {Device}", d1Payload.Device);
+            _logger.LogInformation("Successfully added Birdie telemetry to DB: {Device}", d1Payload.device);
         }
         catch (Exception ex)
         {
