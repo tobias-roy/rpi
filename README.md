@@ -328,6 +328,8 @@ To deploy the API to your RPI run the following commands in this series:
 
 `docker system df -v` - To view the size of docker images and containers
 
+`docker update --restart always mqtt-api` - This will make sure the API always starts on boot and if it shuts down unexpectetly
+
 ## Shelly Topics
 #### ADC Reading (Voltage)
 `shellies/shellyuni-deviceid/adc/0` - Topic for ADC Voltage reading
