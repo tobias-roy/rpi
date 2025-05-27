@@ -43,16 +43,16 @@ public class MqttBackgroundService : BackgroundService, IAsyncDisposable
         // Handle topic-specific logic
         switch (true)
         {
-            case true when MqttTopicFilterComparer.Compare(topic, "/home/birdie/") == MqttTopicFilterCompareResult.IsMatch:
+            case true when MqttTopicFilterComparer.Compare(topic, "home/birdie/") == MqttTopicFilterCompareResult.IsMatch:
                 await HandleBirdiePayloadAsync(payload);
                 break;
 
-            case true when MqttTopicFilterComparer.Compare(topic, "/shellies/+/adc/0/") == MqttTopicFilterCompareResult.IsMatch:
+            case true when MqttTopicFilterComparer.Compare(topic, "shellies/+/adc/0/") == MqttTopicFilterCompareResult.IsMatch:
                 _logger.LogInformation("Matched Shelly ADC topic: {Topic}", topic);
                 // TODO: await HandleShellyAdcPayloadAsync(payload);
                 break;
 
-            case true when MqttTopicFilterComparer.Compare(topic, "/shellies/+/ext_temperatures/") == MqttTopicFilterCompareResult.IsMatch:
+            case true when MqttTopicFilterComparer.Compare(topic, "shellies/+/ext_temperatures/") == MqttTopicFilterCompareResult.IsMatch:
                 _logger.LogInformation("Matched Shelly external temperature topic: {Topic}", topic);
                 // TODO: await HandleShellyTemperaturePayloadAsync(payload);
                 break;
@@ -65,7 +65,7 @@ public class MqttBackgroundService : BackgroundService, IAsyncDisposable
 
     private async Task HandleBirdiePayloadAsync(string payload)
     {
-        _logger.LogInformation("Handling /home/birdie/ payload...");
+        _logger.LogInformation("Handling home/birdie/ payload...");
         var options = new JsonSerializerOptions
         {
             PropertyNameCaseInsensitive = true
@@ -100,7 +100,7 @@ public class MqttBackgroundService : BackgroundService, IAsyncDisposable
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, "Failed to handle /home/birdie/ payload.");
+            _logger.LogError(ex, "Failed to handle home/birdie/ payload.");
         }
     }
 

@@ -119,7 +119,7 @@ allow_anonymous false
 
 Now it's time to create the yaml file for docker-compose (Remember to mind the indentaion YAML is 4 spaces per indentation __NOT TABS__).
 
-`cd /docker`
+`cd docker`
 
 `nano docker-compose.yaml` - Insert the snippet
 ```
