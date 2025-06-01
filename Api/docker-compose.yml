@@ -16,6 +16,7 @@ services:
     build:
       context: ./
     container_name: mqtt-api
+    restart: always
     depends_on:
       - postgres
     ports:

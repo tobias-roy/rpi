@@ -25,4 +25,18 @@ public class DataService(HttpClient httpClient) : BaseService(httpClient), IData
             return [];
         }
     }
+
+    public async Task<List<D1Payload>> GetDefaultBirdieData(CancellationToken cancellationToken)
+    {
+        try
+        {
+            // return await GetAsync<List<D1Payload>>($"data?start={Uri.EscapeDataString(start.ToString("O"))}&end={Uri.EscapeDataString(end.ToString("O"))}", cancellationToken) ?? [];
+            return await GetAsync<List<D1Payload>>($"wemos/historical&=", cancellationToken) ?? [];
+        }
+        catch (Exception e)
+        {
+            Debug.WriteLine(e);
+            return [];
+        }
+    }
 }

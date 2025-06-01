@@ -8,7 +8,10 @@
 - [Ngrok](#ngrok)
 - [.NET Minimal API & PostgreSQL](#net-minimal-api-and-postgresql)
 - [Deploying API & PostgreSQL](#deploying-api-to-raspberrypi)
-- [Shelly Topics](#shelly-topics)
+- [Topics](#topics)
+    - [Shelly Topics](#shelly-topics)
+    - [Wemos Topics](#wemos-topics)
+- [API Request/Response](#api-requestresponse)
   
 ## Description
 This project utilizes a RaspberryPi 5 and various frameworks to get, store and visualize data from various sensors. The project uses data delivered by a Shelly UNI located on a boat in a danish harbor, and multiple wemos d1 minis located in various places.
@@ -322,6 +325,8 @@ To deploy the API to your RPI run the following commands in this series:
 
 `docker-compose up --build -d` - Compose Project
 
+`docker-compose down` - De-Compose Project
+
 `cd .. && sudo rm -rf Api` - Go up one folder and remove Api folder.
 
 `docker logs -f mqtt-api` - To view logs in realtime on the Api
@@ -330,22 +335,72 @@ To deploy the API to your RPI run the following commands in this series:
 
 `docker update --restart always mqtt-api` - This will make sure the API always starts on boot and if it shuts down unexpectetly
 
-## Shelly Topics
+## Topics
+### Wemos topics
+#### ADC Reading (Voltage)
+`home/birdie` - Topic for Wemos publish messages
+
+`{"co2":840,"temperature":25.23,"humidity":43.81,"device":"WhiteBird"}` - JSON Payload
+_____
+### Shelly Topics
 #### ADC Reading (Voltage)
 `shellies/shellyuni-deviceid/adc/0` - Topic for ADC Voltage reading
 
-`13.22` - Payload
+`13.22` - Plaintext Payload
 _____
 
 #### Temperature Reading (C / F)
 
 `shellies/shellyuni-deviceid/ext_temperatures` - Topic for temperature in Celcius
 
-`{"0":{"hwID":"2876a73800000002","tC":21.0}}` - Payload
+`{"0":{"hwID":"2876a73800000002","tC":21.0}}` - JSON Payload
 
 _____
 
 `shellies/shellyuni-deviceid/ext_temperatures_f` - Topic for temperature in Fahrenheit
 
-`{"0":{"hwID":"2876a73800000002","tF":69.8}}` - Payload
+`{"0":{"hwID":"2876a73800000002","tF":69.8}}` - JSON Payload
 _____
+
+## API Request/Response
+The postgres database handles datetimes as ISO format i.e
+```
+2025-01-01T00:00:00Z
+```
+
+### Wemos Endpoint
+#### Data format
+|Property|Type|
+|---|---|
+|id|int|
+|co2|float|
+|temperature|float|
+|humidity|float|
+|device|string|
+|recieved_at|datetime|
+
+#### Request Url
+`/wemos/historical?from=iso_datetime&to=iso_datetime`
+
+#### Response Body within range
+```
+[
+  {
+    "id": 318,
+    "co2": 857,
+    "temperature": 20.5,
+    "humidity": 58.12,
+    "device": "WhiteBird",
+    "received_at": "2025-05-28T04:12:13.978071"
+  },
+  {
+    "id": 317,
+    "co2": 890,
+    "temperature": 21.02,
+    "humidity": 51.09,
+    "device": "BlackBird",
+    "received_at": "2025-05-28T04:10:13.546069"
+  }
+]
+```
+---
